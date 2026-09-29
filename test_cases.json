@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Python explanation",
+    "response": "Python is a programming language commonly used for automation and data analysis.",
+    "required_keywords": ["Python", "programming", "data"]
+  },
+  {
+    "name": "Machine learning explanation",
+    "response": "Machine learning uses algorithms to identify patterns in data and make predictions.",
+    "required_keywords": ["algorithms", "data", "predictions"]
+  },
+  {
+    "name": "Structured JSON response",
+    "response": "{\"language\": \"Python\", \"use\": \"machine learning\"}",
+    "required_keywords": ["Python"],
+    "expect_json": true
+  },
+  {
+    "name": "Incomplete response",
+    "response": "Machine learning is useful.",
+    "required_keywords": ["algorithms", "data", "predictions"]
+  }
+]
